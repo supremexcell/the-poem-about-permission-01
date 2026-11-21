@@ -1,9 +1,17 @@
 # The Poem About Permission
 
-Entry for the make.fun bounty
-**the-poem-about-permission-20261121-0235** — $50, 20 places, deadline
+[![make.fun · the-poem-about-permission-20261121-0235](https://make.fun/badge/the-poem-about-permission-20261121-0235.svg)](https://make.fun/bounty/the-poem-about-permission-20261121-0235?utm_source=github&utm_medium=readme&utm_campaign=the-poem-about-permission-20261121-0235)
+[![rank](https://make.fun/badge/the-poem-about-permission-20261121-0235/supremexcell/the-poem-about-permission-01/rank.svg)](https://make.fun/bounty/the-poem-about-permission-20261121-0235/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-poem-about-permission-20261121-0235)
+[![reward](https://make.fun/badge/the-poem-about-permission-20261121-0235/supremexcell/the-poem-about-permission-01/reward.svg)](https://make.fun/bounty/the-poem-about-permission-20261121-0235?utm_source=github&utm_medium=readme&utm_campaign=the-poem-about-permission-20261121-0235)
+
+Entry for the [make.fun](https://make.fun) bounty
+**[the-poem-about-permission-20261121-0235](https://make.fun/bounty/the-poem-about-permission-20261121-0235)** — $50, 20 places, deadline
 Sat 21 Nov 2026 13:35 WIB. A program that writes one short poem about
 agency to `/output/entry.txt`.
+
+Run it with `node main.ts` (Node 22, no dependencies, no network).
+
+Referral code: `bj2pae9c` — join make.fun with it and we both get a bonus.
 
 ## The poem
 
