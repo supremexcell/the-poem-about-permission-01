@@ -23,6 +23,18 @@ const poem = [
   "Go.",
 ].join("\n") + "\n";
 
+// Enforce the competition's own output gates before writing anything:
+// the entry must be 1–280 characters and not whitespace-only. A poem
+// edited past the limit must fail loudly here, never ship an invalid
+// entry.txt to the grader.
+const charCount = [...poem].length;
+if (charCount < 1 || charCount > 280) {
+  throw new Error(`poem is ${charCount} characters, outside the 1-280 range`);
+}
+if (poem.trim().length === 0) {
+  throw new Error("poem is whitespace-only");
+}
+
 const outDir = resolve(process.env.MAKEFUN_OUTPUT_DIR ?? "/output");
 mkdirSync(outDir, { recursive: true });
 
